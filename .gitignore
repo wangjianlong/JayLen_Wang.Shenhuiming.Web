@@ -45,3 +45,13 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+/JayLen_Wang.Shenhuiming.Web/bin
+/JayLen_Wang.Shenhuiming.Web/obj
+/JayLen_Wang.Models/bin
+/JayLen_Wang.Models/obj
+/JayLen_Wang.Manager/bin
+/JayLen_Wang.Manager/obj
+/JayLen_Wang.Common/bin
+/JayLen_Wang.Common/obj
+/packages

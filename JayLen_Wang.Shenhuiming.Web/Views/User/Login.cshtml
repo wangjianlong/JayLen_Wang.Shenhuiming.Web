@@ -1,0 +1,70 @@
+﻿
+@{
+    ViewBag.Title = "登录";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+<div class="loginColumns animated fadeInDown">
+    <div class="row">
+        <div class="col-md-6">
+            <h2 class="font-bold">Welcome to SH+</h2>
+
+            <p>
+                If it is my last, it will be my greatest moment. This day I will make the best day of my life.          
+            </p>
+
+            <p>
+                This day I will drink every minute to its full. I will savor its taste and give thanks. 
+            </p>
+            <p>
+                I will make the every hour count and each minute I will trade only for something of value. 
+            </p>
+            <p>
+                I will labor harder than ever before and push my muscles until they cry for relief, and then I will continue.
+            </p>
+            @*<p>
+                Each minute of today will be more fruitful than hours of yesterday. My last must be my best.
+            </p>
+            <p>
+               I will live this day as if it is my last. And if it is not, I shall fall to my knees and give thanks to god.
+            </p>*@
+
+        </div>
+        <div class="col-md-6">
+            <div class="ibox-content">
+                <form class="m-t" role="form" action="">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="登录名" name="LoginName" required="">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="密码" name="Password" required="">
+                    </div>
+                    <button type="submit" class="btn btn-primary block full-width m-b">登陆</button>
+
+                    <a href="#">
+                        <small>忘记密码?</small>
+                    </a>
+
+                    <p class="text-muted text-center">
+                        <small>没有账号?</small>
+                    </p>
+                    <a class="btn btn-sm btn-white btn-block" href="/User/Register">创建账户</a>
+                </form>
+                <p class="m-t">
+                    <small>Inspinia we app framework base on Bootstrap 3 &copy; 2017</small>
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-md-6">
+            Copyright Example Company
+        </div>
+        <div class="col-md-6 text-right">
+            <small>© 2014-@(DateTime.Now.Year)</small>
+        </div>
+    </div>
+</div>
+
